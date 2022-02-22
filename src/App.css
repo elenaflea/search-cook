@@ -1,31 +1,197 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  background: #fafafa;
+  background-image: url(back.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 60vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  background: #7cd38d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 30px;
+  padding: 0px 10px;
+}
+.logo{
+  width: 140px;
+  margin: 50px auto 10px auto;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  margin: 5px 0px;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 60%;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+}
+.searchinput{
+  outline: none;
+  background: transparent;
+  border: none;
+  color: #333333;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 22px;
+  width: 100%;
+  
+  
+}
+.searchicon{
+  color: #427e4c;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.searchicon:hover{
+  color: #333333;
+}
+.btnicon{
+  background: transparent;
+  border: none;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #003333;
+ margin: 0px 0px;
+}
+.foodpicture{
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 5px solid #fafafa;
+
+}
+
+.list{
+  text-align: left;
+  margin: auto;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star{
+  color: #ffcc00;
+  margin: 3px;
+  cursor: pointer;
+}
+.star:hover{
+  color: #ff6600;
+}
+.info{
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #333333;
+}
+.kcal {
+  font-weight: 300;
+  margin-left: 8px;
+}
+.heart {
+  color: #333333;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.heart:hover{
+  color: #ff6600
+}
+.lineobject{
+  margin: 0px 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.cookie{
+  width: 80px;
+  margin: 40px auto 0 auto;
+}
+.footer{
+
+  text-decoration: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: #fff;
+  padding: 20px 0 0 0;
+}
+
+.footer:hover{
+  color: #003333;
+}
+.myIcon{
+  height: 24px;
+  width: 24px;
+  margin: 10px;
+}
+hr{
+  background: #fff;
+  height: .5px;
+  border: 1px solid #fff;
+  width: 60%;
+}
+.edamam{
+  width: 180px;
+  margin: 20px 0;
+}
+.edamam:hover{
+  -webkit-filter: drop-shadow(5px 5px 5px #427e4c);
+  filter: drop-shadow(5px 5px 5px #427e4c);
+}
+
+#nextPageBtn {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  color : #ffffff;
+  background: #7cd38d;
+  border: 2px solid #7cd38d;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: auto;
+  cursor: pointer;
+}
+#nextPageBtn:hover{
+  background: #ffffff;
+  color : #427e4c;
+  border: 2px solid #427e4c;
+}
+#nextPageBtn:focus{
+  background: #ffffff;
+  color : #427e4c;
+  border: 2px solid #427e4c;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +200,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .App{
+    width: 100%;
   }
 }
