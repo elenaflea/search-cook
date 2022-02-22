@@ -53,7 +53,7 @@ function MyRecipesComponent ({label, image, calories, ingredients, weight, like,
 
         </div>
     
-        <img className='foodpicture' src={ image } alt='food picture'/>
+        <img className='foodpicture' src={ image } alt='food'/>
         
         <ul className='list ' > 
             { ingredients.map ( (ingredient, index)  => (
