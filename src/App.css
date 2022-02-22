@@ -81,7 +81,8 @@ h2{
  margin: 0px 0px;
 }
 .foodpicture{
-  width: 60%;
+  width: 300px;
+  height : 300px;
   margin: 20px auto;
   border-radius: 50%;
   border: 5px solid #fafafa;
@@ -207,5 +208,15 @@ hr{
 @media all and (max-width: 500px) {
   .App{
     width: 100%;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .App{
+    width: 100%;
+  }
+  .foodpicture {
+    width: 230px;
+    height: 230px;
   }
 }
