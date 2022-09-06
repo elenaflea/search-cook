@@ -109,7 +109,7 @@ function App() {
 
     </div>
 
-        <a className='footer line' href='https://grondin.glitch.me/' target="_blank" rel="noreferrer">
+        <a className='footer line' href='https://lunacode.fr/' target="_blank" rel="noreferrer">
           Developed with love by Elena GRONDIN
         </a>
 
