@@ -2,7 +2,6 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import logo from './watermelon.png';
 import edamam from './edamam.png';
-
 import MyRecipesComponent from './MyRecipesComponent';
 
 <script src="https://developer.edamam.com/attribution/badge.js"></script>
